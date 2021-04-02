@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="8-Puzzle.exe" size="2556416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="8-Puzzle.exe" size="2559488">
       <assemblyIdentity name="8-Puzzle" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ngsteBHHk3fSsMzMZNURUXIHrxzjyiC00dVRyKWYaMw=</dsig:DigestValue>
+        <dsig:DigestValue>CWAcPHQt9IeFz+zlVvmTxyDEz7h8nCkXHx/2Gv+K1jc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

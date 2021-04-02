@@ -314,6 +314,7 @@ namespace _8_Puzzle
             if (btn1.Text == "")
             {
                 puzzleIDS[0, 0] = 0;
+                btn1.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -324,6 +325,7 @@ namespace _8_Puzzle
             if (btn2.Text == "")
             {
                 puzzleIDS[0, 1] = 0;
+                btn2.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -334,6 +336,7 @@ namespace _8_Puzzle
             if (btn3.Text == "")
             {
                 puzzleIDS[0, 2] = 0;
+                btn3.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -344,6 +347,7 @@ namespace _8_Puzzle
             if (btn4.Text == "")
             {
                 puzzleIDS[1, 0] = 0;
+                btn4.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -354,6 +358,7 @@ namespace _8_Puzzle
             if (btn5.Text == "")
             {
                 puzzleIDS[1, 1] = 0;
+                btn5.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -364,6 +369,7 @@ namespace _8_Puzzle
             if (btn6.Text == "")
             {
                 puzzleIDS[1, 2] = 0;
+                btn6.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -374,6 +380,7 @@ namespace _8_Puzzle
             if (btn7.Text == "")
             {
                 puzzleIDS[2, 0] = 0;
+                btn7.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -384,6 +391,7 @@ namespace _8_Puzzle
             if (btn8.Text == "")
             {
                 puzzleIDS[2, 1] = 0;
+                btn8.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
@@ -394,6 +402,7 @@ namespace _8_Puzzle
             if (btn9.Text == "")
             {
                 puzzleIDS[2, 2] = 0;
+                btn9.BackgroundImage = Properties.Resources.kk;
             }
             else
             {

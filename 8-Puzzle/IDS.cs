@@ -228,82 +228,100 @@ namespace _8_Puzzle
             if (btn1.Text == "")
             {
                 puzzleIDS[0, 0] = 0;
+                btn1.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[0, 0] = Convert.ToInt16(btn1.Text);
+                btn1.BackgroundImage = Properties.Resources._1;
             }
 
             if (btn2.Text == "")
             {
                 puzzleIDS[0, 1] = 0;
+                btn2.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[0, 1] = Convert.ToInt16(btn2.Text);
+                btn2.BackgroundImage = Properties.Resources._2;
             }
 
             if (btn3.Text == "")
             {
                 puzzleIDS[0, 2] = 0;
+                btn3.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[0, 2] = Convert.ToInt16(btn3.Text);
+                btn3.BackgroundImage = Properties.Resources._3;
             }
 
             if (btn4.Text == "")
             {
                 puzzleIDS[1, 0] = 0;
+                btn4.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[1, 0] = Convert.ToInt16(btn4.Text);
+                btn4.BackgroundImage = Properties.Resources._4;
             }
 
             if (btn5.Text == "")
             {
                 puzzleIDS[1, 1] = 0;
+                btn5.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[1, 1] = Convert.ToInt16(btn5.Text);
+                btn5.BackgroundImage = Properties.Resources._5;
             }
 
             if (btn6.Text == "")
             {
                 puzzleIDS[1, 2] = 0;
+                btn6.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[1, 2] = Convert.ToInt16(btn6.Text);
+                btn6.BackgroundImage = Properties.Resources._6;
             }
 
             if (btn7.Text == "")
             {
                 puzzleIDS[2, 0] = 0;
+                btn7.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[2, 0] = Convert.ToInt16(btn7.Text);
+                btn7.BackgroundImage = Properties.Resources._7;
             }
 
             if (btn8.Text == "")
             {
                 puzzleIDS[2, 1] = 0;
+                btn8.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[2, 1] = Convert.ToInt16(btn8.Text);
+                btn1.BackgroundImage = Properties.Resources._8;
             }
 
             if (btn9.Text == "")
             {
                 puzzleIDS[2, 2] = 0;
+                btn9.BackgroundImage = Properties.Resources.kk;
             }
             else
             {
                 puzzleIDS[2, 2] = Convert.ToInt16(btn9.Text);
+                btn9.BackgroundImage = Properties.Resources._9;
             }
 
 
@@ -492,9 +510,6 @@ namespace _8_Puzzle
                         temp = pz1[1, 2];
                         pz1[1, 2] = pz1[1, 1];
                         pz1[1, 1] = temp;
-
-
-
                         break;
                     }
                 case "12":

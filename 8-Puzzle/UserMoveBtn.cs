@@ -117,7 +117,7 @@ namespace _8_Puzzle
                 btn1.BackColor = clr;
                 btn1.ForeColor = clr;
                 btn1.FlatAppearance.BorderSize = 0;
-                btn1.BackgroundImage = Bitmap.FromFile(@"E:\taive\8-Puzzle\8-Puzzle\Resources\kk.JPG");// + btn2.Text.ToString() + ".JPG");
+                btn1.BackgroundImage = Bitmap.FromFile(@"E:\taive\8-Puzzle\8-Puzzle\Resources\" + btn2.Text.ToString() + ".JPG");
                 btn1.BackgroundImageLayout = ImageLayout.Stretch;
                 btn1.FlatAppearance.MouseDownBackColor = clr;
                 btn1.FlatAppearance.MouseOverBackColor = clr;
